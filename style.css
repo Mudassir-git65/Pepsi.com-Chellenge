@@ -1,0 +1,388 @@
+/* header section starts */
+.head {
+
+    height: 70px;
+    background-color: #0065c3;
+    /* position: fixed; */
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+
+}
+
+    {
+    /* .Video{
+    height: 100%;
+    max-width: ;
+    min-width: 1700px;
+}
+.video{
+     height:377px  ;
+     max-width: 1000px;
+     min-width: 1500px;
+      */
+
+
+}
+
+*/ .mainheader {
+    /* background-color: #0025ff; */
+
+}
+
+.navbar {
+    background-color: #0025ff;
+
+
+}
+
+.nav-item {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.headlogo {
+    height: 65px;
+    width: 70px;
+    margin-left: 0;
+}
+
+.itemlogo {
+    font-weight: 700;
+    color: #0025ff;
+
+}
+
+@-webkit-keyframes rotateIn {}
+
+@keyframes rotateIn {}
+
+.headlogo {
+    animation-name: rotateIn;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+
+}
+
+.headlogo:hover {}
+
+
+
+
+.itemhome {
+    font-weight: 800;
+    color: white !important;
+}
+
+.itemproducts {
+    font-weight: 800;
+    color: white !important;
+
+}
+
+.itemcontacts {
+    font-weight: 800;
+    color: white !important;
+}
+
+.editbtn {
+    font-weight: 800;
+    border: white solid 2px !important;
+    border-radius: 12px;
+    color: white;
+    padding: 2px 10px !important;
+
+}
+
+.editbtn:hover {
+    background-color: white !important;
+    color: #0025ff;
+    -webkit-animation-name: tada;
+    animation-name: tada;
+    animation-duration: 0.8s;
+
+}
+
+
+/* header section ends */
+
+* {
+    margin: 0;
+
+}
+
+/* content1 section starts  */
+
+.content1 {
+    background-image: url(images/content1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: end;
+}
+
+.shopnow {
+    height: 100px;
+    width: 250px;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    margin-bottom: 90px;
+    margin-right: -45px;
+    font-weight: 800;
+    padding-left: 6px;
+    padding-right: 10px;
+
+
+}
+
+.shopnow:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #0025ff;
+    border: #0025ff;
+
+}
+
+img {
+    display: flex;
+    align-self: center;
+    height: 600px;
+    /* width: 1500px; */
+}
+
+/* content1 section ends */
+
+/* content2 section starts */
+.content2 {
+    /* background-color: rgb(67, 4, 241); */
+    height: 900px;
+    background-image: url(images/content2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.getwild {
+    display: flex;
+    justify-content: flex-start;
+}
+
+img {
+    height: 200px;
+    width: 400px;
+
+    flex-direction: row;
+    margin-left: 310px;
+    display: inline-block;
+}
+
+.parent1 {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 350px;
+
+
+
+}
+
+.picture1btn {
+    height: 360px;
+    width: 590px;
+    background-image: url(images/btn2pic.jpg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 40px;
+    border: 6px solid #0025ff;
+    border-radius: 25px;
+
+}
+
+.picture1btn:hover {
+    border-color: #0065c3;
+
+}
+
+.bottom1btn {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: -30px;
+    color: black;
+}
+
+.bottom1btn:hover {
+    color: white;
+    background-color: #0025ff;
+    border: #0025ff;
+    cursor: pointer;
+}
+
+.parent2 {
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    margin-left: -40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 350px;
+
+}
+
+.picture2btn {
+    height: 360px;
+    width: 590px;
+    margin-left: 80px;
+    background-image: url(images/btn1pic.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #0025ff solid 6px;
+    border-radius: 30px;
+
+}
+
+.bottom2btn {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 40px;
+    color: black;
+}
+
+.bottom2btn:hover {
+    color: white;
+    background-color: #0025ff;
+    border: #0025ff;
+    cursor: pointer;
+}
+
+/* content2 section ends  */
+
+/* content3 section starts */
+.content3 {
+
+    background-color: black;
+    height: 400px;
+    width: 1303px;
+
+}
+
+.h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #0025ff;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.slider {
+    display: flex;
+    border: #0025ff solid 5px;
+    gap: ;
+    height: 32.5vh;
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 65px;
+    justify-content: flex-start;
+}
+
+
+
+.slider>img {
+    height: 197px;
+    width: 16.7%;
+    margin-left: 0%;
+
+}
+
+.slider>img:hover {
+    /* -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out */
+
+    animation-name: rotateIn;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration: 1s;
+
+    /* -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out */
+}
+
+
+/* content3 ends */
+/* working on footer */
+.footer {
+    height: 42vh;
+    width: 100%;
+    background-color: #0025ff;
+    display: flex;
+    gap: 40px;
+}
+
+
+.logoofpepsi {
+    height: 105px;
+    width: 110px;
+    margin-left: 0;
+}
+
+
+.list1,
+.list2,
+.list3 {
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+    flex-direction: column;
+    font-weight: 900;
+    margin-top: 95px;
+    ;
+}
+
+.icons {
+    display: flex;
+    font-size: 35px;
+    color: white;
+    align-items: flex-end;
+    margin-bottom: 120px;
+    margin-left: 120px;
+    gap: 25px;
+}
+
+@font-face {
+    font-family: sofia pro;
+    src: url(images/sofia-pro-cufonfonts/Sofia\ Pro\ Regular\ Az.otf\ Az.otf\ Az.otf);
+}
+
+* {
+    font-family: sofia pro;
+    margin: 0;
+    padding: 0;
+}
